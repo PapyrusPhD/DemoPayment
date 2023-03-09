@@ -1,0 +1,67 @@
+header {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 100%;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+
+    background: #FFFFFF;
+    border-bottom: 1px solid #EAEBEB;
+}
+
+.yellowBar {
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 100%;
+    background-color: #febe10;
+}
+
+.topMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 0px 144px;
+    
+    width: 1440px;
+    height: 36px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px;
+
+    width: 233px;
+    height: 36px;
+}
+
+.firstLink {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 4px;
+
+    width: 88px;
+    height: 28px;
+}
+
+.secondLink {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 8px;
+    gap: 4px;
+
+    height: 28px;
+}
